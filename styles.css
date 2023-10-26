@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: darkgrey;
+}
+
+.container {
+    text-align: center;
+}
+
+.quote-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#quote-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: darkcyan;
+}
+
+#author {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+#new-quote {
+    margin-top: 20px;
+    background-color: #0074d9;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#new-quote:hover {
+    background-color:lightsteelblue;
+}
